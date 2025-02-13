@@ -7,7 +7,7 @@ def on_button_click():
     if current_text == "Serwus!":
         label.config(text="Kliknąłeś!", fg="green")
     else:
-        label.config(text="Po co dalej wciskasz?!", fg="black")
+        label.config(text="Po co dalej wciskasz?! Daj sobie już spokój", fg="black")
 
 # Create the main window
 root = tk.Tk()
